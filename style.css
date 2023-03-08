@@ -1,0 +1,33 @@
+h1 {
+  display: flex;
+  font-family: Lato;
+
+}
+
+ .register{
+   display: flex;
+   gap:10px;
+   align-items: flex-start;
+   flex-direction: column;
+   margin: 15px;
+   max-width: 100%;
+   border:2px solid black;
+
+ }
+
+ 
+   .input[type=text],
+   .input[type=password]{
+width: 60%;
+padding: 2px 2px;
+border: 1px solid gray;
+box-sizing: border-box;
+gap:15px;
+
+   }
+   button{
+     color: black;
+     width:20%
+    
+   }
+ 
